@@ -1,0 +1,69 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.grid1, .grid2 {
+    height: 324px;
+    width: 576px;
+    display: grid;
+}
+/* Elementos Grid 1 */ 
+.one, .two, .three, .four, .five, .six {
+    height: 108px;
+    width: 288px;    
+}
+.one {
+    background-color: #ff914d;
+    grid-column: 1;
+    grid-row: 1;
+}
+.two {
+    background-color: #c9e265;
+    grid-column: 2;
+    grid-row: 1;
+}
+.three {
+    background-color: #004aad;
+    grid-column: 1;
+    grid-row: 2;
+}
+.four {
+    background-color: #00c2cb;
+    grid-column: 2;
+    grid-row: 2;
+}
+.five {
+    background-color: #cb6ce6;
+    grid-column: 1;
+    grid-row: 3;
+}
+.six {
+    background-color: #ff5757;
+    grid-column: 2;
+    grid-row: 3;
+}
+/* Elementos Grid 2 */ 
+.izq, .der {
+    height: 324px;
+    width: 288px;
+    font-size: 40px;
+}
+.izq {
+    text-align: left;
+    grid-column: 1 / 4;
+    grid-row: 1 / 4;
+    background-color: #cb6ce6;
+}
+.der {
+    text-align: right;
+    grid-column: 4 / 7;
+    grid-row: 1 / 4;
+    background-color: #ff914d;
+}
+.cen {
+    height: 100px;
+    width: 100px;
+    grid-column: 3 / 5;
+    grid-row: 2;
+    background-color: #ff5757;
+}
